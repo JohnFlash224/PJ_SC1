@@ -10,7 +10,7 @@ def initPlayer(left_standing, STARTSIZE, LEFT, HAFT_WINWIDTH, HAFT_WINHEIGHT, MA
     playerObj = {'surface': pygame.transform.scale(left_standing, (STARTSIZE, STARTSIZE)),
                  'facing': LEFT,
                  'size': STARTSIZE,
-                 'x': HAFT_WINWIDTH,
+                 'x': HAFT_WINWIDTH/2,
                  'y': HAFT_WINHEIGHT,
                  'health': MAXHEALTH,
                  'crystal': str(CRYSTAL)

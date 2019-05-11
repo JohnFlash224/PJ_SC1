@@ -15,8 +15,11 @@ import StartScreen as screen
 
 
 FPS = 30
-WINWIDTH = 640
-WINHEIGHT = 512
+# WINWIDTH = 640
+# WINHEIGHT = 512
+
+WINWIDTH = 1280
+WINHEIGHT = 768
 
 HAFT_WINWIDTH = int(WINWIDTH/2)
 HAFT_WINHEIGHT = int(WINHEIGHT/2)
@@ -26,7 +29,7 @@ LEFT = 'left'
 RIGHT = 'right'
 
 STARTSIZE = 50   
-MAXHEALTH = 1000
+MAXHEALTH = 100
 CRYSTAL = 0
 DAMAGE = 30
 
@@ -66,7 +69,7 @@ def main():
     pygame.init()
     
     FPSCLOCK = pygame.time.Clock()
-    RUNGAME = True
+    RUNGAME = False
     
 #     pygame.display.set_icon(pygame.image.load('gameicon.png'))
     DISPLAYSURF = pygame.display.set_mode((WINWIDTH, WINHEIGHT))
@@ -162,7 +165,7 @@ def runGame(args):
     #map tiled
     tiled_map,tilewidth,tileheight = mt.initMap()
     
-    SET_ALPHA = 255
+    SET_ALPHA = 0
     
     # camerax and cameray are the top left of where the camera view is
     camerax = 0
@@ -512,7 +515,7 @@ def runGame(args):
             
             DISPLAYSURF.blit(instructionSurf, instructionRect)
     
-            if playerObj['health'] < 60:
+            if playerObj['health'] < 10:
                 gameOverMode = True # turn on "game over mode"
                 gameOverStartTime = time.time()
             
