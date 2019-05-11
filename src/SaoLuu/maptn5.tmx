@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.3" orientation="orthogonal" renderorder="right-down" width="300" height="16" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="1">
+ <tileset firstgid="1" source="sheetsand1.tsx"/>
+ <tileset firstgid="257" source="sheetCatsle.tsx"/>
+ <tileset firstgid="513" source="sheetSnow.tsx"/>
+ <tileset firstgid="769" source="sheetPurpe.tsx"/>
+ <tileset firstgid="1025" source="sheetGrass.tsx"/>
+ <layer id="2" name="BG1" width="300" height="16">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20LL6AAAAAAAAAAAAAAAAAAAAAAAADgZ0sAAAE=
+  </data>
+ </layer>
+ <layer id="3" name="Plant" width="300" height="16">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20LL6AAAAAAAAAAAAAAAAAAAAAAAADgZ0sAAAE=
+  </data>
+ </layer>
+ <layer id="4" name="Danger" width="300" height="16">
+  <data encoding="base64" compression="zlib">
+   eJztw7EJADAIADDB/xfxYJ9QKDSBRAAAAAAAAAAAAAAAAAAAAADwi8q9AJc69wLvGafHFkU=
+  </data>
+ </layer>
+ <layer id="1" name="DiaHinh" width="300" height="16">
+  <data encoding="base64" compression="zlib">
+   eJzt2d0NgjAYhlEgzKTO4Spu4yAO4ghO4iVo2kJoSfk5J3kX8OLJV2kaAAAAAACAdb368IBzenfhbcGnDw84p1sXHkBJ13ZYzNZup9gbzzsPjmvcqlSzSt5Oj3bYUrE3nnceHFOoVVN3VglzelX7drq3vwPqSbVq7WbN6VXt2+m/V5oFdcxpVYlmxb4ZlngPri3UK82CfKn/nve2kp4Zi/VKtyDP5UCr/btMdUq/IE/txuy5V0v7pFmwzBftqJbv
+  </data>
+ </layer>
+</map>
